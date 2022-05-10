@@ -1,0 +1,5 @@
+dubbo:
+  application:
+    name: dubbo-grpc-server
+  registry:
+    address: nacos://localhost:8848

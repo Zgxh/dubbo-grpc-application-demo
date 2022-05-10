@@ -1,0 +1,12 @@
+server:
+  port: 9091
+
+dubbo:
+  application:
+    name: dubbo-grpc-client
+  registry:
+    address: nacos://localhost:8848
+  protocol:
+    port: 28888
+  scan:
+    base-packages: com.zgxh.dubboconsumer.provider.impl
